@@ -1,0 +1,8 @@
+1. UI 시스템을 만들때 EventSystem 에 관하여
+2. OnTrigger 종류
+3. 클레스로만든 배열은 스크립트를 가져오는지?
+4. Rect Transform에 관하여
+5. gameObject 의 SetActive
+6. unsing SceneMangemnet;
+7. Input 메소드들 ex GetKeyDown, Up...
+8. Mathf 
