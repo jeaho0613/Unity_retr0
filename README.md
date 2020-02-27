@@ -1,0 +1,46 @@
+# **Unity_retr0 Project**
+
+## Introduction
+
+<img src="./img/retr0.jpg">
+
+유니티 강좌로 유명하신 `retr0`님의 강좌입니다.  
+현재는 **총 2개의 큰 폴더로** 구성되어있습니다.  
+
+- Unity_essence
+- [Boxcollider_lecture](<https://boxcollider.io/>)
+
+> [retr0님 유튜브 링크입니다.](<https://www.youtube.com/channel/UCRWq4MPqifkmT2GyL2d2ZAQ>)
+
+## Contents
+
+### **Unity_ESSENCE FOLDER**
+
+- **`2020-02` [Dodge](https://github.com/jeaho0613/Unity_retr0/tree/master/Unity_essence) : 닷지 게임니다.**
+  - 기초적인 스크립트 작성법
+  - 랜덤 한 총알 생성 작성법
+  - prefab 활용
+  
+- **`2020-02` [Uni-Run](https://github.com/jeaho0613/Unity_Nadongbin/tree/master/mobile%20defences%20game) : 무한 달리기 게임입니다.**
+  - 오브젝트 풀링 기법
+  - 무한 스크롤
+  - 랜덤 한 위치에 발판 생성
+  - Animation
+
+- **`2020-02` [Zombie](https://github.com/jeaho0613/Unity_Nadongbin/tree/master/mobile%20defences%20game) : 좀비 게임입니다.**
+  - UI 관련
+  - 스크립트 오버로딩
+  - 포스트프로세싱으로 화면 필터효과
+  - 총알 발사 관련 로직
+  - 충돌 관련 로직
+  - 랜덤한 좀비 생성 (강력한 좀비는 빨간색)
+
+- **`2020-02` [Zombie Multiplayer](https://github.com/jeaho0613/Unity_Nadongbin/tree/master/mobile%20defences%20game) : Zombie project의 Multiplay 버전입니다.**
+  - Photon 서버 적용 (포팅)
+  - RPC 설정 (원격프로시저호출)
+  - 로비, 룸
+
+### **BOXCOLLIDER FOLDER**
+
+- **`2020-02` : 추후 업데이트**
+  
