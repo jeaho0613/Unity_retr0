@@ -1,5 +1,0 @@
-transfrom.Translate // 평행이동 함수
-- Space. salf      옵션을 줄수있음
- 	word
-
-글로벌 좌표계(절대적) , 로컬 좌표계(상대적)
