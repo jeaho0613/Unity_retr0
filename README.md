@@ -43,4 +43,8 @@
 ### **BOXCOLLIDER FOLDER**
 
 - **`2020-02` : 추후 업데이트**
+
+- **`2020-05` : [소코반 게임](https://github.com/jeaho0613/Unity_retr0/tree/master/Unity_Boxcollider/sokovan) : 간단한 3D게임 입니다.**
+  - 간단한 3D 게임입니다.
+  - 특정 오브젝트를 지정된 위치에 가지고 가야됩니다.
   
