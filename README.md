@@ -55,8 +55,11 @@
   - **AudioMixer : 오디오 관련한 특정 상황에 맞는 소리 조절**
 
 - **`2020-05` : [TPS Project](https://github.com/jeaho0613/Unity_retr0/tree/master/Unity_Boxcollider/TPS%20Start%20Project) : 3D TPS 게임입니다.**
+  - Version - 2019.3.6f1
   - **Import Package**
     - Cinemachine (카메라 동작)
     - Post Processing (화면 필터)
     - **Probuilder (아트 레벨 디자인, 맵 구성등)**
     - Timeline (Cinemachine의 의존 패키지)
+
+  <Readme.md>() : 프로젝트 설명 링크
