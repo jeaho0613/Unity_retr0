@@ -51,5 +51,12 @@
   - 마우스를 이용하여 볼을 발사합니다.
   - 볼은 땅과 충돌하면 이펙트를 생성하고 주변 오브젝트를 밀어내거나, 파괴합니다.
   - 볼의 충돌과 가까운 오브젝트는 더 많은 데미지를 입습니다. (멀수록 적은 데미지)
-  - `랜덤 오브젝트 생성기~` 시작요망
+  - `랜덤 오브젝트 생성기`
   - **AudioMixer : 오디오 관련한 특정 상황에 맞는 소리 조절**
+
+- **`2020-05` : [TPS Project](https://github.com/jeaho0613/Unity_retr0/tree/master/Unity_Boxcollider/TPS%20Start%20Project) : 3D TPS 게임입니다.**
+  - **Import Package**
+    - Cinemachine (카메라 동작)
+    - Post Processing (화면 필터)
+    - **Probuilder (아트 레벨 디자인, 맵 구성등)**
+    - Timeline (Cinemachine의 의존 패키지)
