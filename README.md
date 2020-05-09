@@ -62,4 +62,4 @@
     - **Probuilder (아트 레벨 디자인, 맵 구성등)**
     - Timeline (Cinemachine의 의존 패키지)
 
-  <Readme.md>() : 프로젝트 설명 링크
+  <Readme.md>(https://github.com/jeaho0613/Unity_retr0/tree/master/Unity_Boxcollider/TPS%20Start%20Project) : 프로젝트 설명 링크
