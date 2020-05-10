@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private CharacterController characterController;
     private PlayerInput playerInput;
+    private PlayerShooter playerShooter;
     private Animator animator;
 
     private Camera followCam; // 카메라의 방향을 위한 변수
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        playerShooter = GetComponent<PlayerShooter>();
         characterController = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
         animator = GetComponent<Animator>();
@@ -34,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         // Cam의 화면 조정
-        if (currentSpeed > 0.2f || playerInput.fire) Rotate();
+        if (currentSpeed > 0.2f || playerInput.fire || playerShooter.aimState == PlayerShooter.AimState.HipFire) Rotate();
 
         Move(playerInput.moveInput);
 

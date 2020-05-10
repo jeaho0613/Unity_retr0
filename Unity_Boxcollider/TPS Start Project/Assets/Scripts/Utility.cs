@@ -14,6 +14,7 @@ public static class Utility
         return hit.position;
     }
     
+    // 랜덤한 정규분포 값
     public static float GedRandomNormalDistribution(float mean, float standard)
     {
         var x1 = Random.Range(0f, 1f);
