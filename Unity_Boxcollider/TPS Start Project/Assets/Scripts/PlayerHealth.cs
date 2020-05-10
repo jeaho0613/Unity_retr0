@@ -17,12 +17,14 @@ public class PlayerHealth : LivingEntity
 
     protected override void OnEnable()
     {
-        base.OnEnable();
+        base.OnEnable(); // base (LivingEntity의 OnEnable을 먼저 실행
+        UpdateUI();
     }
     
     public override void RestoreHealth(float newHealth)
     {
-        base.RestoreHealth(newHealth);
+        base.RestoreHealth(newHealth); // base (LivingEntity의 RestoreHealth을 먼저 실행
+        UpdateUI();
     }
 
     private void UpdateUI()
@@ -34,12 +36,25 @@ public class PlayerHealth : LivingEntity
     {
         if (!base.ApplyDamage(damageMessage)) return false;
 
+        EffectManager.Instance.PlayHitEffect(damageMessage.hitPoint, // 이팩트 생성 지점
+                                             damageMessage.hitNormal, // 이팩트 회전 값
+                                             transform, // 위치
+                                             EffectManager.EffectType.Flesh); // 생성 이팩트 타입
+
+        playerAudioPlayer.PlayOneShot(hitClip);
+
+        UpdateUI();
         
         return true;
     }
     
     public override void Die()
     {
-        base.Die();
+        base.Die(); // base (LivingEntity의 Die을 먼저 실행
+
+        playerAudioPlayer.PlayOneShot(deathClip);
+        animator.SetTrigger("Die");
+
+        UpdateUI();
     }
 }
